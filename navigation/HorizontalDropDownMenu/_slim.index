@@ -1,0 +1,244 @@
+.container
+  header.clearfix
+    span Snippet
+    h1 Horizontal Drop-Down Menu
+    nav
+      a.icon-arrow-left data-info=("back to wwwoodall") href="http://www.wwwoodall.com"  w
+  .main
+    nav#cbp-hrmenu.cbp-hrmenu
+      ul
+        li
+          a href="#"  About
+          .cbp-hrsub
+            .cbp-hrsub-inner
+              div
+                h4 Family
+                ul
+                  li
+                    a href="#"  Dave
+                  li
+                    a href="#"  Danae
+                  li
+                    a href="#"  Oscar
+                  li
+                    a href="#"  Wells
+                  li
+                    a href="#"  Olivia
+                  li
+                    a href="#"  Courage
+                  li
+                    a href="#"  Marty
+              div
+                h4 Home Life
+                ul
+                  li
+                    a href="#"  Cooking
+                  li
+                    a href="#"  Coding
+                  li
+                    a href="#"  Boulder
+                  li
+                    a href="#"  Wobbler 3.0
+                  li
+                    a href="#"  Coolkid
+              div
+                h4 Education
+                ul
+                  li
+                    a href="#"  Learn Thai
+                  li
+                    a href="#"  Math Genius
+                  li
+                    a href="#"  Chemokid
+                h4 Professionals
+                ul
+                  li
+                    a href="#"  Success 1.0
+                  li
+                    a href="#"  Moneymaker
+            /! /cbp-hrsub-inner
+          /! /cbp-hrsub
+        li
+          a href="#"  Blog
+          .cbp-hrsub
+            .cbp-hrsub-inner
+              div
+                h4 Education &amp; Learning
+                ul
+                  li
+                    a href="#"  Learn Thai
+                  li
+                    a href="#"  Math Genius
+                  li
+                    a href="#"  Chemokid
+                h4 Professionals
+                ul
+                  li
+                    a href="#"  Success 1.0
+                  li
+                    a href="#"  Moneymaker
+              div
+                h4 Entertainment
+                ul
+                  li
+                    a href="#"  Gadget Finder
+                  li
+                    a href="#"  Green Tree Express
+                  li
+                    a href="#"  Green Tree Pro
+                  li
+                    a href="#"  Holy Cannoli
+                  li
+                    a href="#"  Wobbler 3.0
+                  li
+                    a href="#"  Coolkid
+              div
+                h4 Games
+                ul
+                  li
+                    a href="#"  Catch the Bullet
+                  li
+                    a href="#"  Snoopydoo
+                  li
+                    a href="#"  Fallen Angel
+                  li
+                    a href="#"  Sui Maker
+                  li
+                    a href="#"  Wave Master
+                  li
+                    a href="#"  Golf Pro
+            /! /cbp-hrsub-inner
+          /! /cbp-hrsub
+        li
+          a href="#"  Recipes
+          .cbp-hrsub
+            .cbp-hrsub-inner
+              div
+                h4 Learning &amp; Games
+                ul
+                  li
+                    a href="#"  Catch the Bullet
+                  li
+                    a href="#"  Snoopydoo
+                h4 Utilities
+                ul
+                  li
+                    a href="#"  Gadget Finder
+                  li
+                    a href="#"  Green Tree Express
+                  li
+                    a href="#"  Green Tree Pro
+                  li
+                    a href="#"  Wobbler 3.0
+                  li
+                    a href="#"  Coolkid
+              div
+                h4 Education
+                ul
+                  li
+                    a href="#"  Learn Thai
+                  li
+                    a href="#"  Math Genius
+                  li
+                    a href="#"  Chemokid
+                h4 Professionals
+                ul
+                  li
+                    a href="#"  Success 1.0
+                  li
+                    a href="#"  Moneymaker
+            /! /cbp-hrsub-inner
+          /! /cbp-hrsub
+        li
+          a href="#"  Product Reviews
+          .cbp-hrsub
+            .cbp-hrsub-inner
+              div
+                h4 Learning &amp; Games
+                ul
+                  li
+                    a href="#"  Catch the Bullet
+                  li
+                    a href="#"  Snoopydoo
+                  li
+                    a href="#"  Fallen Angel
+                  li
+                    a href="#"  Sui Maker
+                  li
+                    a href="#"  Wave Master
+                  li
+                    a href="#"  Golf Pro
+                h4 Utilities
+                ul
+                  li
+                    a href="#"  Gadget Finder
+                  li
+                    a href="#"  Green Tree Express
+              div
+                h4 Entertainment
+                ul
+                  li
+                    a href="#"  Gadget Finder
+                  li
+                    a href="#"  Green Tree Express
+                  li
+                    a href="#"  Green Tree Pro
+                  li
+                    a href="#"  Holy Cannoli
+                  li
+                    a href="#"  Wobbler 3.0
+                  li
+                    a href="#"  Coolkid
+            /! /cbp-hrsub-inner
+          /! /cbp-hrsub
+        li
+          a href="#"  Downloads
+          .cbp-hrsub
+            .cbp-hrsub-inner
+              div
+                h4 Utilities
+                ul
+                  li
+                    a href="#"  Green Tree Pro
+                  li
+                    a href="#"  Wobbler 3.0
+                  li
+                    a href="#"  Coolkid
+                h4 Education
+                ul
+                  li
+                    a href="#"  Learn Thai
+                  li
+                    a href="#"  Math Genius
+                  li
+                    a href="#"  Chemokid
+              div
+                h4 Professionals
+                ul
+                  li
+                    a href="#"  Success 1.0
+                  li
+                    a href="#"  Moneymaker
+              div
+                h4 Learning &amp; Games
+                ul
+                  li
+                    a href="#"  Catch the Bullet
+                  li
+                    a href="#"  Snoopydoo
+                  li
+                    a href="#"  Fallen Angel
+                  li
+                    a href="#"  Sui Maker
+                  li
+                    a href="#"  Wave Master
+                  li
+                    a href="#"  Golf Pro
+            /! /cbp-hrsub-inner
+          /! /cbp-hrsub
+script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"
+script src="js/cbpHorizontalMenu.min.js"
+javascript:
+  | $(function() {
+    | cbpHorizontalMenu.init();
+  | });
