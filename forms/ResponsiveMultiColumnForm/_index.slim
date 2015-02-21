@@ -1,0 +1,64 @@
+.container
+  header.clearfix
+    span
+      | Snippet
+      span.bp-icon.bp-icon-about data-content=("The Blueprints are a collection of basic and minimal website concepts), components, plugins and layouts with minimal style for easy adaption and usage, or simply for inspiration."
+    h1 Responsive Multi-Column Form
+    nav
+      a.bp-icon.bp-icon-prev data-info=("previous Blueprint") href="http://tympanus.net/Blueprints/TooltipMenu/"
+        span Previous Blueprint
+      a.bp-icon.bp-icon-next data-info=("next Blueprint") href="http://tympanus.net/Blueprints/AnimatedHeader/"
+        span Next Blueprint
+      a.bp-icon.bp-icon-drop data-info=("back to the Codrops article") href="http://tympanus.net/codrops/?p=15320"
+        span back to the Codrops article
+      a.bp-icon.bp-icon-archive data-info=("Blueprints archive") href="http://tympanus.net/codrops/category/blueprints/"
+        span Go to the archive
+  .main
+    form.cbp-mc-form
+      .cbp-mc-column
+        label for="first_name"  First Name
+        input#first_name name="first_name" placeholder="Jonathan" type="text" /
+        label for="last_name"  Last Name
+        input#last_name name="last_name" placeholder="Doe" type="text" /
+        label for="email"  Email Address
+        input#email name="email" placeholder="jon@doe.com" type="text" /
+        label for="country"  Country
+        select#country name="country"
+          option Choose a country
+          option France
+          option Italy
+          option Portugal
+        label for="bio"  Biography
+        textarea#bio name="bio"
+      .cbp-mc-column
+        label for="phone"  Phone Number
+        input#phone name="phone" placeholder=("+351 999 999") type="text" /
+        label for="affiliations"  Affiliations
+        textarea#affiliations name="affiliations"
+        label Occupation
+        select#occupation name="occupation"
+          option Choose an occupation
+          option Web Designer
+          option Web Developer
+          option Hybrid
+        label for="cat_name"  Cat's name
+        input#cat_name name="cat_name" placeholder="Kitty" type="text" /
+        label for="gagdet"  Favorite Gadget
+        input#gagdet name="gagdet" placeholder="Annoy-a-tron" type="text" /
+      .cbp-mc-column
+        label Type of Talent
+        select#talent name="talent"
+          option Choose a talent
+          option Ninja silence
+          option Sumo power
+          option Samurai precision
+        label for="drink"  Favorite Drink
+        input#drink name="drink" placeholder=("Green Tea") type="text" /
+        label for="power"  Special power
+        input#power name="power" placeholder="Anti-gravity" type="text" /
+        label for="weapon"  Weapon of choice
+        input#weapon name="weapon" placeholder="Lightsaber" type="weapon" /
+        label for="comments"  Comments
+        textarea#comments name="comments"
+      .cbp-mc-submit-wrap
+        input.cbp-mc-submit type="submit" value=("Send your data") /
