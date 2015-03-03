@@ -1,6 +1,6 @@
 gem 'bourbon'
 gem 'neat'
-gem 'bitters'
+# gem 'bitters' # installed via snippets
 gem 'pry'
 
 gem "middleman-deploy"
